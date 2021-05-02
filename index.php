@@ -23,7 +23,7 @@
         <div id="workspace"><a href="views/workspace.php" class="ml-4 md:ml-8 hover:text-gray-400">Workspace</a></div>
         <div id="contact"><a href="views/contact.php" class="ml-4 md:ml-8 hover:text-gray-400">Contact</a></div>
         <div id="about"><a href="views/about.php" class="ml-4 md:ml-8 hover:text-gray-400">About me</a></div>
-        <div id="loginDiv"><a id="login" href="#" class="pb-2 ml-4 md:ml-8 text-center hover:text-gray-400 shadow-lg py-0 px-4 mb-4 rounded-full">Login</a></div>
+        <div id="loginDiv"><a id="login" href="#" class="hover:bg-blue-500 hover:border-blue-700 pb-2 ml-4 md:ml-8 text-center shadow-lg py-0 px-4 border-b-4 border-blue-600 mb-4 bg-blue-400 rounded-lg">Login</a></div>
       </header>
     <!--INFO CARD-->
     <div id="homeCard" class="bg-white w-4/6 mt-12 rounded-lg border border-gray-200 shadow-lg p-4">
