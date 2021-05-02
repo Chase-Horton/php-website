@@ -19,5 +19,6 @@ $(window).on('load', () =>{
     if(getCookie('animation') == 'false'){
         $('div.navBar div').removeAttr('id');
         $('header').attr('id', 'navBar');
+        document.getElementById("homeCard").style.animationDelay = "0.5s"
     }
 });

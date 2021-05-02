@@ -16,7 +16,7 @@
 
 </head>
 <body>
-    <div class="h-screen flex-wrap bg-black">
+    <div class="h-screen bg-black">
         <?php include('navBar.html');?>
         <div class="window">
             <div id="terminalDiv"></div>
