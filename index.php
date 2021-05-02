@@ -19,11 +19,12 @@
       <div class="navBar flex text-base md:text-3xl">
         <div id="home"><a href="index.php" class="underline ml-4 md:ml-8 hover:text-gray-400">Home</a></div>
         <div id="projects"><a href="views/projects.php" class="ml-4 md:ml-8 hover:text-gray-400">Projects</a></div>
-        <div id="about"><a href="views/about.php" class="ml-4 md:ml-8 hover:text-gray-400">About me</a></div>
-        <div id="contact"><a href="views/contact.php" class="ml-4 md:ml-8 hover:text-gray-400">Contact</a></div>
         <div id="terminal"><a href="views/terminal.php" class="ml-4 md:ml-8 hover:text-gray-400">Terminal</a></div>
+        <div id="workspace"><a href="views/workspace.php" class="ml-4 md:ml-8 hover:text-gray-400">Workspace</a></div>
+        <div id="contact"><a href="views/contact.php" class="ml-4 md:ml-8 hover:text-gray-400">Contact</a></div>
+        <div id="about"><a href="views/about.php" class="ml-4 md:ml-8 hover:text-gray-400">About me</a></div>
         <div id="loginDiv"><a id="login" href="#" class="pb-2 ml-4 md:ml-8 text-center hover:text-gray-400 shadow-lg py-0 px-4 mb-4 rounded-full">Login</a></div>
-    </header>
+      </header>
     <!--INFO CARD-->
     <div id="homeCard" class="bg-white w-4/6 mt-12 rounded-lg border border-gray-200 shadow-lg p-4">
       <div class="border-b pb-2">

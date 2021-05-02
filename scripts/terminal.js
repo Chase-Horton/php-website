@@ -73,7 +73,8 @@ let term = $('#terminalDiv').terminal({
             x = undefined;
         }
         if(cmd == undefined){
-        this.echo(`For more information on any command press type help COMMAND-NAME
+        this.echo(`For more information on any command press type help COMMAND-NAME\n
+The buttons on the side may be used to quickly execute commands, but you must not have anything currently typed to use them.\n 
 clear   or    CTRL + L  |   Clears the screen
 help COMMAND            |   Returns more information on the command
 ls                      |   Lists files in current directory
@@ -340,6 +341,9 @@ filesystem with new files but it's simpler to simply use git pull.
         greetings: greeting + '\n\n Type "help" for more information, and to clear the screen.\n' /*x, 'Welcome to my online terminal. Type help for more information...'*/,
         completion: true,
         checkArity: false,
+        onBlur: function(){
+            return false;
+        }
     }
 );
 

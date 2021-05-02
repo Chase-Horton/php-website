@@ -42,43 +42,49 @@
 #home{
     animation-name:slideUp;
     animation-duration: 2s;
-    animation-delay: 1.5s;
+    animation-delay: 0.5s;
     animation-fill-mode: backwards;
 }
 #projects{
     animation-name:slideUp;
     animation-duration: 2s;
-    animation-delay: 1.75s;
+    animation-delay: 0.75s;
     animation-fill-mode: backwards;
 }
 #about{
     animation-name:slideUp;
     animation-duration: 2s;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-fill-mode: backwards;
 }
 #contact{
     animation-name:slideUp;
     animation-duration: 2s;
-    animation-delay: 2.25s;
+    animation-delay: 1.25s;
     animation-fill-mode: backwards;
 }
 #terminal{
     animation-name:slideUp;
     animation-duration: 2s;
-    animation-delay: 2.5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: backwards;
+}
+#workspace{
+    animation-name:slideUp;
+    animation-duration: 2s;
+    animation-delay: 1.75s;
     animation-fill-mode: backwards;
 }
 #loginDiv{
     animation-name:slideUp;
     animation-duration: 2s;
-    animation-delay: 2.75s;
+    animation-delay: 2s;
     animation-fill-mode: backwards;
 }
 #homeCard{
     animation-name: slideIn;
     animation-duration: 2s;
-    animation-delay: 3s;
+    animation-delay: 2.25s;
     animation-fill-mode: backwards;
 }
 #termX{
