@@ -21,6 +21,12 @@
     background: #A390E4;
     border-color: rgba(255,255,255,1);
 }
+#login{
+    color:black;
+    background:rgb(255, 255, 255);
+    text-shadow: none;
+    align-items: center;
+}
 #navBarAnimated{
     animation-name: nav;
     animation-duration: 2s;
