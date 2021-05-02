@@ -345,7 +345,19 @@ filesystem with new files but it's simpler to simply use git pull.
 
 //BUTTONS
 document.getElementById('help-button').onclick = showHelp;
+document.getElementById('clear-button').onclick = clear;
+document.getElementById('save-button').onclick = save;
+document.getElementById('load-button').onclick = load;
+//button functions
+function clear(){
+    term.exec('clear');
+}
 function showHelp(){
-    console.log('help');
     term.exec('help');
+}
+function save(){
+    console.log('save');
+}
+function load(){
+    console.log('load');
 }

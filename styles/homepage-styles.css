@@ -5,14 +5,21 @@
     color: white;
 }
 .terminal-button{
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    font-family:'Roboto',sans-serif;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    transition: all 0.2s;
     color: white;
     padding-left: 1.75rem;
     padding-right: 1.75rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    background:  rgba(0, 0, 0, 0.5);
 }
 .terminal-button:hover{
     background: #A390E4;
+    border-color: rgba(255,255,255,1);
 }
 #navBarAnimated{
     animation-name: nav;
@@ -62,17 +69,20 @@
     animation-delay: 3s;
     animation-fill-mode: backwards;
 }
-#term{
+#termX{
+    z-index: 1;
     animation-name: slideIn;
     animation-duration: 1.8s;
     animation-delay: 0.3s;
     animation-fill-mode: backwards;
 }
 #term-buttons{
+    z-index: 0;
     animation-name: appear;
-    animation-duration: 3.8s;
-    animation-delay: 1s;
+    animation-duration: 1.3s;
+    animation-delay: 0.8s;
     animation-fill-mode: backwards;
+    
 }
 @keyframes slideIn {
     from{transform: translateX(-1900px);}
@@ -89,7 +99,7 @@
     100%{text-shadow: 2px 2px rgb(160, 1, 1);}
 }
 @keyframes appear {
-    from{opacity: 0;}
-    to{opacity: 1;}
+    0%{opacity:0; transform: translateX(250px);}
+    100%{transform: translateX(0px);opacity: 1;}
 }
 
