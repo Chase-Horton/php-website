@@ -28,7 +28,7 @@
             <button id="save-button" class="terminal-button bg-red-500 rounded-full">Save</button>
             <button id="load-button" class="terminal-button bg-red-500 rounded-full">Load</button>       
             <button class="terminal-button bg-red-500 rounded-full">More Information</button>
-            <button class="terminal-button bg-red-500 rounded-full">See Code on GitHub></button>
+            <button class="terminal-button bg-red-500 rounded-full">See Code on GitHub</button>
         </div>
     </div>
 </body>
