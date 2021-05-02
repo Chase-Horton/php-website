@@ -66,7 +66,7 @@ let files = {
     }
 }
 let repo = {}
-$('#terminalDiv').terminal({
+let term = $('#terminalDiv').terminal({
     help : function(cmd){
         if(x != undefined){
             this.clear()
@@ -337,8 +337,15 @@ filesystem with new files but it's simpler to simply use git pull.
     }
     }, 
     {
-        greetings: x /*'Welcome to my online terminal. Type help for more information...'*/,
+        greetings: greeting + '\n\n Type "help" for more information, and to clear the screen.\n' /*x, 'Welcome to my online terminal. Type help for more information...'*/,
         completion: true,
         checkArity: false,
     }
 );
+
+//BUTTONS
+document.getElementById('help-button').onclick = showHelp;
+function showHelp(){
+    console.log('help');
+    term.exec('help');
+}
