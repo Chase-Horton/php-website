@@ -19,7 +19,7 @@
     <div class="h-screen bg-gradient-to-br from-red-600 to-red-200 flex flex-col items-center">
         <?php include('navBar.html');?>
         <!--TERMINAL-->
-        <div class="flex justify-center h-3/4 w-full mt-8">
+        <div class="flex justify-center h-3/4 w-3/4 mt-8">
             <!--BUTTONS-->
             <div id="term-buttons" class="m-8 h-full pb-8 w-1/8 flex flex-col justify-evenly text-2xl">
                 <button id="help-button" class="terminal-button rounded-full">Help</button>
@@ -29,7 +29,7 @@
                 <button class="terminal-button rounded-full">More Information</button>
                 <a target="_blank" href="https://github.com/Chase-Horton/php-website" class="terminal-button rounded-full">See Code on GitHub</a>
             </div>
-                <div id="termX" class="mt-6 w-3/4 h-full flex-none bg-black rounded-lg shadow-lg overflow-hidden">
+                <div id="termX" class="mt-6 h-full flex-none bg-black rounded-lg shadow-lg overflow-hidden">
                     <div id="terminalDiv" class="p-8"></div>
                 </div>
 

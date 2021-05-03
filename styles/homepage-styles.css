@@ -118,7 +118,7 @@
     z-index: 0;
     animation-name: appear;
     animation-duration: 1.3s;
-    animation-delay: 0.8s;
+    animation-delay: 1.2s;
     animation-fill-mode: backwards
 }
 @keyframes termText {
@@ -131,7 +131,7 @@
 }
 @keyframes slideUpTerm {
     from{width:0%;}
-    to{ width:75%;}
+    to{}
 }
 @keyframes nav {
     from{transform: translateY(-200px)}
