@@ -34,7 +34,9 @@
                 </div>
 
         </div>
+        <?php include("../views/signUp.html");?>
     </div>
 </body>
-<script src='../scripts/terminal.js'></script>
+<script src="../scripts/terminal.js"></script>
+<script src="../scripts/login.js"></script>
 </html>

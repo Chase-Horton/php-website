@@ -21,13 +21,16 @@
     background: #A390E4;
     border-color: rgba(255,255,255,1);
 }
-#login{
+.act-button{
     text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
     color: white;
 }
-#login:hover{
+.act-button:hover{
     color:rgb(214, 214, 214);
     text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+}
+#signup{
+    z-index: 10;
 }
 #navBarAnimated{
     animation-name: nav;
@@ -77,11 +80,20 @@
     animation-delay: 1.75s;
     animation-fill-mode: backwards;
 }
-#loginDiv{
+#signupDiv{
     animation-name:slideUp;
     animation-duration: 2s;
     animation-delay: 2s;
     animation-fill-mode: backwards;
+}
+#loginDiv{
+    animation-name:slideUp;
+    animation-duration: 2s;
+    animation-delay: 2.25s;
+    animation-fill-mode: backwards;
+}
+#login{
+    z-index:10;
 }
 #homeCard{
     animation-name: slideIn;
