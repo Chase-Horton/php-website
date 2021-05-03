@@ -7,6 +7,12 @@
         <div class="flex justify-start m-4 text-2xl">Password: <input name="pwd" class="px-4 ml-4 flex-auto rounded-lg" type="password"/></div>
         <div class="flex justify-start m-4 text-2xl">Please Repeat Password: <input name="repPwd" class="px-4 ml-4 flex-auto rounded-lg" type="password"/></div>
         <div class="flex justify-center text-4xl h-full w-full m-4"><button name="submit" type="submit" class="hover:text-gray-300 hover:border-gray-300 hover:bg-blue-800 font-bold text-white bg-blue-700 w-3/4 p-4 border-8 border-white shadow-lg">Submit</button></div>
+        <?php if(isset($_GET["error"])){
+            if($_GET["error"] == "emptyInput"){
+                echo '<div class="flex justify-center m-4 text-2xl">Error Empty Input</div>';
+            }
+        }
+      ?>
     </form>
 </div>
 <div id="login" class="absolute top-0 left-0 h-full w-full bg-black bg-opacity-75" style="display:none;">

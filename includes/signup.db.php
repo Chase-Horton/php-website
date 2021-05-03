@@ -16,28 +16,28 @@ if(isset($_POST["submit"])){
     echo "pwd " . $pwd . "\n";
     echo "repPwd " . $repPwd . "\n";
     if (emptyInputSignup($fname, $uname, $email, $pwd, $repPwd) !== false){
-        header("location: index.php?error=emptyInput");
+        header("location: ../views/index.php?error=emptyInput");
         exit();
     }
     if (invalidUser($uname) !==false){
-        header("location: index.php?error=invalidUser");
+        header("location: ../views/index.php?error=invalidUser");
         exit();
     }
     if (invalidEmail($email) !==false ){
-        header("location: index.php?error=invalidUser");
+        header("location: ../views/index.php?error=invalidUser");
         exit();        
     }
     if (samePass($pwd, $repPwd) !==false ){
-        header("location: index.php?error=notSamePass");
+        header("location: ../views/index.php?error=notSamePass");
         exit();        
     }
     if (userExists($con, $uname, $email) !==false ){
-        header("location: index.php?error=userTaken");
+        header("location: ../views/index.php?error=userTaken");
         exit();        
     }
     addUser($con, $fname, $uname, $email, $pwd);
 }
 else {
-    header("location: index.php");
+    header("location: ../views/index.php");
     exit();
 }

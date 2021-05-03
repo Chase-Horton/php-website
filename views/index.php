@@ -39,7 +39,7 @@
       Praesent non sem sed arcu semper aliquet. Cras maximus pulvinar iaculis. Morbi vel nisi sit amet elit lobortis suscipit at ac arcu. Aliquam consequat condimentum neque et vulputate. Donec id consectetur lorem. Nam aliquet bibendum orci, sit amet eleifend tortor faucibus non. Curabitur ultricies augue eget ornare luctus. Nulla in eleifend dui. In sagittis lorem nisi, et imperdiet libero sodales sed. Vestibulum non mi vitae ipsum tempor congue. Morbi facilisis sagittis euismod. Vestibulum ante risus, facilisis in nulla quis, auctor imperdiet odio.
     </p>
   </div>
-  <?php include("signUp.html");?>
+  <?php include("signUp.php");?>
   </div>
 </body>
 <script src="../scripts/login.js"></script>

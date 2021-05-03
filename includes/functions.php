@@ -61,7 +61,6 @@ function  addUser($con, $fname, $uname, $email, $pwd){
         header("location: index.php?error=stmtFailed");
         exit();
     }
-    //hashing
     $hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
 
     mysqli_stmt_bind_param($stmt, "ssss", $fname, $email, $uname, $hashedPwd);

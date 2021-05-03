@@ -34,7 +34,7 @@
                 </div>
 
         </div>
-        <?php include("../views/signUp.html");?>
+        <?php include("../views/signUp.php");?>
     </div>
 </body>
 <script src="../scripts/terminal.js"></script>
