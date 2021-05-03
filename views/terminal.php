@@ -29,8 +29,8 @@
                 <button class="terminal-button rounded-full">More Information</button>
                 <a target="_blank" href="https://github.com/Chase-Horton/php-website" class="terminal-button rounded-full">See Code on GitHub</a>
             </div>
-                <div id="termX" class="mt-6 h-full flex-none bg-black rounded-lg shadow-lg overflow-hidden">
-                    <div id="terminalDiv" class="p-8"></div>
+                <div id="termX" class="mt-6 h-full w-3/4 flex-none bg-black rounded-lg shadow-lg overflow-hidden">
+                    <div id="terminalDiv" class="w-full pl-8 pt-8"></div>
                 </div>
 
         </div>
