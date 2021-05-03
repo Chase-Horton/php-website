@@ -5,12 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="scripts/control.js"></script>
-    <script src='scripts/stopAnim.js'></script>
+    <script src="../scripts/control.js"></script>
+    <script src='../scripts/stopAnim.js'></script>
     <link rel="stylesheet" href="https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css"/>
-    <link href="styles/tailwind.css" rel="stylesheet">
-    <link href="styles/homepage-styles.css" rel="stylesheet">
-    <link href="views/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="../styles/tailwind.css" rel="stylesheet">
+    <link href="../styles/homepage-styles.css" rel="stylesheet">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
 </head>
 <body>
   <div class="h-screen bg-gradient-to-br from-red-600 to-red-200 flex flex-col items-center">
@@ -18,11 +18,11 @@
     <header id="navBarAnimated" class="h-20 flex w-full justify-start pt-4 text-2xl rounded-b-2xl">
       <div class="navBar flex text-base md:text-3xl">
         <div id="home"><a href="index.php" class="underline ml-4 md:ml-8 hover:text-gray-400">Home</a></div>
-        <div id="projects"><a href="views/projects.php" class="ml-4 md:ml-8 hover:text-gray-400">Projects</a></div>
-        <div id="terminal"><a href="views/terminal.php" class="ml-4 md:ml-8 hover:text-gray-400">Terminal</a></div>
-        <div id="workspace"><a href="views/workspace.php" class="ml-4 md:ml-8 hover:text-gray-400">Workspace</a></div>
-        <div id="contact"><a href="views/contact.php" class="ml-4 md:ml-8 hover:text-gray-400">Contact</a></div>
-        <div id="about"><a href="views/about.php" class="ml-4 md:ml-8 hover:text-gray-400">About me</a></div>
+        <div id="projects"><a href="projects.php" class="ml-4 md:ml-8 hover:text-gray-400">Projects</a></div>
+        <div id="terminal"><a href="terminal.php" class="ml-4 md:ml-8 hover:text-gray-400">Terminal</a></div>
+        <div id="workspace"><a href="workspace.php" class="ml-4 md:ml-8 hover:text-gray-400">Workspace</a></div>
+        <div id="contact"><a href="contact.php" class="ml-4 md:ml-8 hover:text-gray-400">Contact</a></div>
+        <div id="about"><a href="about.php" class="ml-4 md:ml-8 hover:text-gray-400">About me</a></div>
         <div id="signupDiv"><a id="signup-button" href="#" class="act-button hover:bg-blue-500 hover:border-blue-700 pb-2 ml-4 md:ml-8 text-center shadow-lg py-0 px-4 border-b-4 border-blue-600 mb-4 bg-blue-400 rounded-lg">Sign Up</a></div>
         <div id="loginDiv"><a id="login-button" href="#" class="act-button hover:bg-blue-500 hover:border-blue-700 pb-2 ml-4 md:ml-8 text-center shadow-lg py-0 px-4 border-b-4 border-blue-600 mb-4 bg-blue-400 rounded-lg">Login</a></div>
       </header>
@@ -39,8 +39,8 @@
       Praesent non sem sed arcu semper aliquet. Cras maximus pulvinar iaculis. Morbi vel nisi sit amet elit lobortis suscipit at ac arcu. Aliquam consequat condimentum neque et vulputate. Donec id consectetur lorem. Nam aliquet bibendum orci, sit amet eleifend tortor faucibus non. Curabitur ultricies augue eget ornare luctus. Nulla in eleifend dui. In sagittis lorem nisi, et imperdiet libero sodales sed. Vestibulum non mi vitae ipsum tempor congue. Morbi facilisis sagittis euismod. Vestibulum ante risus, facilisis in nulla quis, auctor imperdiet odio.
     </p>
   </div>
-  <?php include("views/signUp.html");?>
+  <?php include("signUp.html");?>
   </div>
 </body>
-<script src="scripts/login.js"></script>
+<script src="../scripts/login.js"></script>
 </html>
